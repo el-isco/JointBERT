@@ -9,7 +9,8 @@ Original file is located at
 
 import torch
 import torch.nn as nn
-from transformers.modeling_roberta import RobertaPreTrainedModel, RobertaModel, RobertaConfig
+# from transformers.modeling_roberta import RobertaPreTrainedModel, RobertaModel, RobertaConfig
+from transformers.models.roberta.modeling_roberta import RobertaPreTrainedModel, RobertaModel, RobertaConfig
 from torchcrf import CRF
 from .module import IntentClassifier, SlotClassifier
 
